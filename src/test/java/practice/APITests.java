@@ -85,12 +85,6 @@ public class APITests {
 		.post()
 		.then()
 		.log().all();
-		
-		
-		
-		
-		
-		
 	}
 	
 	@Parameters(value = {"browser","plaform","browserVersion"})// use where launch instance code written
