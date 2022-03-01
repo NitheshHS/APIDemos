@@ -27,7 +27,11 @@ public class APITests {
 		.get("url")
 		.then()
 		.log().all();
+
 //new msg
+
+		//second msg
+//resolve conflict
 	}
 	
 	@Test
