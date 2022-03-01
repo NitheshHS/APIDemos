@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5"  >
+  <test name="TestRunnerChrome">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="platform" value="Windows10"></parameter>
+  <parameter name="browserVersion" value="98"></parameter>
+    <classes>
+      <class name="practice.APITests"/>
+    </classes>
+  </test> 
+  <test name="TestRunnerFirefox">
+  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="plaform" value="Ubantu"></parameter>
+  <parameter name="browserVersion" value="56"></parameter>
+    <classes>
+      <class name="practice.APITests"/>
+    </classes>
+  </test><!-- Test -->
+</suite> <!-- Suite -->
